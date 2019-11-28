@@ -68,8 +68,7 @@ int main(void){
 		return -1;
 		}	
 		
-		fclose(fp);
-	
+
 	//word reading & analysis
 	while ( fget_word(fp, word)!=0)
 	{
